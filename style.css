@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: ; Choose 3 fonts style for the font family (Arial, Helvetica...)*/
+    font-family: "Times New Roman", Times, serif;
 }
 
 
 body {
     min-height: 100vh;
-    /* background: choose your own background color */
+    background: #1F4E79;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,14 +35,13 @@ body {
 
 
 h1 {
-    /* Add a font style for the title */
     font-size: 26px;
     margin-bottom: 8px;
 }
 
 
 .bio {
-    /* font-size: ; modify the font size to be different from h1*/
+    font-size: 22px;
     opacity: 0.85;
     margin-bottom: 25px;
 }
@@ -56,12 +55,11 @@ h1 {
 
 
 .link-btn {
-    /* background: change the bacground color; */
+    background: #FFFFFF;
     border-radius: 10px;
-    /* padding: ; choose a padding dimension
-    /!\ there are 2 dimensions !!*/
+    padding: 2px 10px ;
     text-decoration: none;
-    /* color: ; change the color */
+    color: #1F1F1F;
     font-weight: bold;
 
     display: flex;
@@ -73,9 +71,8 @@ h1 {
 }
 
 .link-btn img {
-    /* width: ;
-    height: ;
-    Choose a size of image (note : should ba a square so x = y) */
+    width: 20px ;
+    height: 20px ;
 }
 
 .link-btn:hover {
